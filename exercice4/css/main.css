@@ -1,0 +1,71 @@
+#header {
+  background-color: #b11313 !important;
+}
+
+#section1 {
+  background: url(../Illustration/img1.png);
+
+  height: 900px;
+}
+
+#footer {
+  background-color: #000000;
+}
+#home1 {
+  background: url(../Illustration/img1.png);
+
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home2 {
+  background-color: #b11313;
+}
+
+#home3 {
+  background: url(../Illustration/img5.png);
+
+  background-position: start;
+  background-repeat: no-repeat;
+
+  background-color: #114c92;
+}
+
+#home4 {
+  background: url(../Illustration/img6.png);
+
+  background-repeat: no-repeat;
+
+  background-color: #b11313;
+  background-position-x: right;
+}
+
+/* small scree */
+@media screen and (max-width: 576px) {
+  #header {
+    display: none;
+  }
+}
+
+@font-face {
+  font-family: 'Far From Homecoming';
+
+  src: url('Typo-FarFromHomecoming.woff2') format('woff2');
+}
+
+body {
+  font-family: 'Far From Homecoming';
+}
+
+.spid {
+  font-family: 'Rock Salt', cursive;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.br {
+  border-radius: 20px 20px 20px 20px;
+}

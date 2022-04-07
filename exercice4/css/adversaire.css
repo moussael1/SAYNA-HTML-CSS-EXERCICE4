@@ -1,0 +1,36 @@
+/* mettre en place l'image du dragon */
+.dragon {
+  height: 400px;
+  background-image: url('../Illustration/img7.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+body {
+  background-color: yellow;
+}
+
+/* Configuration du card qui contient le personnage et text*/
+.card-body,
+.card {
+  background-color: yellow;
+  border-style: solid;
+  border-width: 0px 6px 6px 6px;
+  border-radius: 0px 0px 40px 40px;
+}
+
+/*Espace de separation pour toutes les cards*/
+.espace {
+  height: 30px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+/* phrase SUPER VILLAINS a côté du dragons (Pour moi c ne pas un text mais image)*/
+.super_text {
+  width: 60%;
+  position: relative;
+  left: 150px;
+  top: 50px;
+}

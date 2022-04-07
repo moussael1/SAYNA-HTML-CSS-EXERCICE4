@@ -1,0 +1,25 @@
+#prop1 {
+  background-color: #f1c530;
+  background-image: url(../Illustration/img5.png);
+  background-position: end;
+  background-repeat: no-repeat;
+  background-attachment: flip;
+  height: 60vh;
+  transform: scaleX(-1);
+  /* transform: scaleX(-1); */
+}
+
+#prop2 {
+  background-color: #114c92;
+}
+
+#prop3 {
+  background-color: #b11313;
+  position: relative;
+}
+
+.port {
+  position: absolute;
+  bottom: 500px;
+  left: 200px;
+}
